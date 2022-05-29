@@ -1,7 +1,6 @@
 # PySnake
 Snake Game with Tkinter
 
-#==========================================
 # Purpose: Main Game/Loop
 ## Instance variables:
     #self.win=tkinter object
@@ -17,9 +16,7 @@ Snake Game with Tkinter
     #targetAuto(): defines the AI movement
     #gameLoop(): the main gameloop which is responsible for the updates. It, also, checks whether the game must stop (if the flag is true)
     #RestartGame(): It restarts the game, if it over
-#==========================================
 
-#==========================================
 # Purpose: The snake entity
 ## Instance variables:
     #self.x=x coordinate
@@ -34,4 +31,14 @@ Snake Game with Tkinter
     #constructor(): create required the aforementioned attributes and initialize the snake by creating the first rectangle and sets the default direction
     #move(): moving the snake, if the head is at the same position with the food, dont delete the last segment, otherise please do. Return the appropriate boolean
     #gameOver(): check if I exceed the borders, if I hitted my own body or the AI's
-#==========================================
+
+# Purpose: The food entity
+## Instance variables:
+    #self.x=x coordinate (random number following the appropriate positions)
+    #self.y= y coordinate (random number following the appropriate positions)
+    #self.color= the color of the food
+    #self.canvas= required canvas attribute in order to create ovals to our canvas
+    #self.segments= food parts (not necessary)
+## Methods:
+    #constructor(): create required the aforementioned attributes and initialize the food by creating the first oval
+    #checkFood(): check whether a snake (enemy or player) ate the food so create another oval somewhere else while deleting the previous one
