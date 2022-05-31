@@ -1,7 +1,7 @@
 # PySnake
 Snake Game with Tkinter
 
-# Purpose: Main Game/Loop
+# About: Main Game/Loop
 ## Instance variables:
     #self.win=tkinter object
     #self.canvas= tkinter canvas object
@@ -17,7 +17,7 @@ Snake Game with Tkinter
     #gameLoop(): the main gameloop which is responsible for the updates. It, also, checks whether the game must stop (if the flag is true)
     #RestartGame(): It restarts the game, if it over
 
-# Purpose: The snake entity
+# About: The snake entity
 ## Instance variables:
     #self.x=x coordinate
     #self.y= y coordinate
@@ -32,7 +32,7 @@ Snake Game with Tkinter
     #move(): moving the snake, if the head is at the same position with the food, dont delete the last segment, otherise please do. Return the appropriate boolean
     #gameOver(): check if I exceed the borders, if I hitted my own body or the AI's
 
-# Purpose: The food entity
+# About: The food entity
 ## Instance variables:
     #self.x=x coordinate (random number following the appropriate positions)
     #self.y= y coordinate (random number following the appropriate positions)
