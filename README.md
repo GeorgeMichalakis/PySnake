@@ -2,6 +2,7 @@
 Snake Game with Tkinter
 
 # About: Main Game/Loop
+
 ## Instance variables:
     #self.win=tkinter object
     #self.canvas= tkinter canvas object
@@ -18,6 +19,7 @@ Snake Game with Tkinter
     #RestartGame(): It restarts the game, if it over
 
 # About: The snake entity
+
 ## Instance variables:
     #self.x=x coordinate
     #self.y= y coordinate
@@ -33,6 +35,7 @@ Snake Game with Tkinter
     #gameOver(): check if I exceed the borders, if I hitted my own body or the AI's
 
 # About: The food entity
+
 ## Instance variables:
     #self.x=x coordinate (random number following the appropriate positions)
     #self.y= y coordinate (random number following the appropriate positions)
